@@ -1,0 +1,34 @@
+{
+  "name": "mbn-bot",
+  "version": "1.0.0",
+  "description": "Un bot discord pour les serveurs classes",
+  "main": "dist/index.js",
+  "author": "JulMan",
+  "license": "Apache-2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:w": "tsc -w",
+    "build": "tsc",
+    "start": "node --enable-source-maps .",
+    "commands": "node ./commands.js"
+  },
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "discord-api-types": "^0.37.14",
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "he": "^1.2.0",
+    "kdecole-api": "^1.4.0",
+    "knex": "^2.3.0",
+    "pad": "^3.2.0",
+    "sqlite3": "^5.1.2",
+    "turndown": "^7.1.1",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/he": "^1.1.2",
+    "@types/turndown": "^5.0.1",
+    "typescript": "^4.9.4"
+  }
+}
